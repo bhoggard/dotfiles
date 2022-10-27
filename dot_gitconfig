@@ -1,0 +1,14 @@
+[user]
+  name = Barry Hoggard
+  email = barry@artsymail.com
+[push]
+  default = current
+[core]
+  excludesfile = ~/.gitignore
+[pager]
+  branch = false
+
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
