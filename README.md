@@ -1,2 +1,3 @@
 # dotfiles
-my dotfiles using Thoughbot's rcm
+
+My dotfiles managed with [chezmoi](https://www.chezmoi.io/).
