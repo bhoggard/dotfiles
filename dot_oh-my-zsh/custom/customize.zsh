@@ -11,6 +11,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 . ~/.secrets
 alias be="bundle exec"
+alias ch=chezmoi
 alias rub="git diff --name-only | xargs bundle exec rubocop -a"
 alias rubs="git diff --staged --name-only | xargs bundle exec rubocop -a"
 
