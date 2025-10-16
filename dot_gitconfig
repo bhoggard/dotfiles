@@ -3,3 +3,5 @@
 	name = Barry Hoggard
 [push]
 	autoSetupRemote = true
+[pull]
+	rebase = false
