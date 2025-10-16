@@ -1,0 +1,5 @@
+[user]
+	email = barry@hoggard.org
+	name = Barry Hoggard
+[push]
+	autoSetupRemote = true
