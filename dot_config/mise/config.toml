@@ -1,2 +1,5 @@
 [tools]
+elixir = "1.20.4-otp-29"
+erlang = "29.0.6"
+java = "temurin-25.0.4+7.0.LTS"
 node = "lts"
