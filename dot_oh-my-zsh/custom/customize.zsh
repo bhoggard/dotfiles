@@ -9,10 +9,6 @@ export HOMEBREW_NO_ENV_HINTS=true
 
 . ~/.secrets
 
-alias opal="ssh bhoggard@opal12.opalstack.com"
-alias cm=chezmoi
-alias j="bundle exec jekyll serve -I"
-
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(ssh-agent -s)"
 
@@ -20,12 +16,6 @@ eval "$(ssh-agent -s)"
 export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:=$HOME/.config}"
 export XDG_DATA_HOME="${XDG_DATA_HOME:=$HOME/.local/share}"
 export XDG_CACHE_HOME="${XDG_CACHE_HOME:=$HOME/.cache}"
-
-alias c="clojure -M:repl/rebel"
-alias k=kubectl
-alias jk="bundle exec jekyll serve --livereload"
-alias emacs="emacs -nw"
-alias cl="claude --dangerously-skip-permissions"
 
 eval "$(/Users/barry/.local/bin/mise activate zsh)"
 
