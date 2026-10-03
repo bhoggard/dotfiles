@@ -1,5 +1,13 @@
 {
   "autoUpdatesChannel": "stable",
   "tui": "fullscreen",
-  "theme": "dark"
+  "theme": "dark",
+  "permissions": {
+    "allow": [
+      "Read(~/.local/**)",
+      "Edit(~/.local/**)",
+      "Read(~/.config/**)",
+      "Edit(~/.config/**)"
+    ]
+  }
 }
