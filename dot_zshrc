@@ -105,3 +105,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# mise: activate managed tool versions (go, node, erlang, ...)
+eval "$(mise activate zsh)"
