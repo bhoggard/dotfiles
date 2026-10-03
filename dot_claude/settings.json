@@ -1,0 +1,5 @@
+{
+  "autoUpdatesChannel": "stable",
+  "tui": "fullscreen",
+  "theme": "dark"
+}
